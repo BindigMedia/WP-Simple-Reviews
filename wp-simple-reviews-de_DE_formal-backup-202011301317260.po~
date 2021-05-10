@@ -1,0 +1,377 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Simple Reviews\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-30 14:55+0000\n"
+"PO-Revision-Date: 2020-11-30 13:17+0000\n"
+"Last-Translator: emailchef\n"
+"Language-Team: Deutsch (Sie)\n"
+"Language: de_DE_formal\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.3; wp-5.5.1"
+
+#: inc/settings/wp-simple-reviews.php:313
+msgid "1=Org, 2=Product"
+msgstr "1=Org., 2=Produkt"
+
+#: inc/shortcode/visual-rating.php:93
+#, php-format
+msgid ""
+"<span class=\"rating\">%s</span> <span class=\"votes\">(%s reviews)</span>"
+msgstr ""
+"<span class=\"rating\">%s</span> <span class=\"votes\">(%s Kundenmeinungen)"
+"</span>"
+
+#: inc/shortcode/visual-rating.php:83
+#, php-format
+msgid ""
+"<span class=\"rating\">%s</span> out of <span class=\"best\">5</span> in "
+"<span class=\"votes\">%s</span> <a href=\"%s\" title=\"Show Reviews\">"
+"reviews</a>"
+msgstr ""
+"<span class=\"rating\">%s</span> von <span class=\"best\">5</span> in <span "
+"class=\"votes\">%s</span> <a href=\"%s\" title=\"Kundenmeinungen anzeigen\">"
+"Kundenmeinungen</a>"
+
+#: inc/shortcode/visual-rating.php:90
+#, php-format
+msgid ""
+"<span class=\"rating\">%s</span> out of <span class=\"best\">5</span> in "
+"<span class=\"votes\">%s</span> reviews"
+msgstr ""
+"<span class=\"rating\">%s</span> von <span class=\"best\">5</span> bei <span "
+"class=\"votes\">%s</span> Kundenmeinungen"
+
+#: inc/post-type/review.php:17 inc/post-type/review.php:18
+msgid "Add New Review"
+msgstr "Neue Kundenmeinung hinzufügen"
+
+#: inc/post-type/review.php:16
+msgid "All Reviews"
+msgstr "Alle Kundenm."
+
+#: inc/shortcode/visual-rating.php:56
+msgid "Bad"
+msgstr "Schlecht"
+
+#. Author of the plugin
+msgid "Bindig Media GmbH"
+msgstr "Bindig Media GmbH"
+
+#: inc/settings/wp-simple-reviews.php:106
+msgid "City"
+msgstr "Ort"
+
+#. ID
+#: inc/settings/wp-simple-reviews.php:82 inc/meta-box/review.php:46
+#: inc/post-type/review.php:70
+msgid "Company"
+msgstr "Firma"
+
+#: inc/settings/wp-simple-reviews.php:122
+msgid "Country e.g. DE"
+msgstr "Land z.B. DE"
+
+#: inc/meta-box/review.php:22
+msgid "Details"
+msgstr "Details"
+
+#: inc/post-type/review.php:20
+msgid "Edit Review"
+msgstr "Kundenm. bearbeiten"
+
+#: inc/settings/wp-simple-reviews.php:146 inc/meta-box/review.php:52
+msgid "eMail"
+msgstr "E-Mail Adresse"
+
+#: inc/meta-box/review.php:40
+msgid "Exclude Review from visible showing? (0/1)"
+msgstr "Kundenmeinung von Darstellung im Frontend ausschließen? (0/1)"
+
+#: inc/post-type/review.php:31
+msgid "Filter Reviews list"
+msgstr "Liste mit Kundenmeinungen filtern"
+
+#: inc/meta-box/review.php:48
+msgid "First name"
+msgstr "Vorname"
+
+#: inc/shortcode/visual-rating.php:47
+msgid "Good"
+msgstr "Gut"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.bindig-media.de"
+msgstr "https://www.bindig-media.de"
+
+#: inc/settings/wp-simple-reviews.php:130
+msgid "Image URL"
+msgstr "Logo URL"
+
+#: inc/post-type/review.php:27
+msgid "Insert into Review"
+msgstr "Zur Kundenmeinung hinzufügen"
+
+#: inc/meta-box/review.php:50
+msgid "Last name"
+msgstr "Nachname"
+
+#: inc/post-type/review.php:35
+msgid "Managing review entries"
+msgstr "Verwaltung von Kundenmeinungen"
+
+#: inc/post-type/review.php:71
+msgid "Name"
+msgstr "Name"
+
+#: inc/post-type/review.php:19
+msgid "New Review"
+msgstr "Neue Kundenmeinung"
+
+#: inc/meta-box/review.php:42
+msgid "No"
+msgstr ""
+
+#: inc/post-type/review.php:25
+msgid "Not found"
+msgstr "Nicht gefunden"
+
+#: inc/post-type/review.php:26
+msgid "Not found in Trash"
+msgstr "Nichts im Papierkorb gefunden"
+
+#: inc/shortcode/visual-rating.php:59
+msgid "Not rated yet"
+msgstr "Bisher nicht bewertet"
+
+#: inc/shortcode/visual-rating.php:53
+msgid "Not so good"
+msgstr "Nicht so gut"
+
+#: inc/shortcode/visual-rating.php:50
+msgid "Okay"
+msgstr "Okay"
+
+#: inc/settings/wp-simple-reviews.php:138 inc/meta-box/review.php:54
+msgid "Phone"
+msgstr "Telefon"
+
+#: inc/shortcode/form.php:85
+msgid "Please enter your email"
+msgstr "Bitte geben Sie Ihre E-Mail Adresse an"
+
+#: inc/shortcode/form.php:71
+msgid "Please enter your first name"
+msgstr "Bitte geben Sie Ihren Vornamen an"
+
+#: inc/shortcode/form.php:78
+msgid "Please enter your last name"
+msgstr "Bitte geben Sie Ihren Nachnamen an"
+
+#: inc/shortcode/form.php:59
+msgid "Please enter your rating content"
+msgstr "Bitte geben Sie den Inhalt Ihrer Bewertung an"
+
+#: inc/shortcode/form.php:52
+msgid "Please enter your rating title"
+msgstr "Bitte geben Sie den Titel Ihrer Bewertung an"
+
+#: inc/shortcode/form.php:45
+msgid "Please select a rating"
+msgstr "Bitte wählen Sie eine Bewertung aus"
+
+#: inc/post-type/review.php:10
+msgctxt "Post Type General Name"
+msgid "Review"
+msgstr "Kundenmeinung"
+
+#: inc/post-type/review.php:11
+msgctxt "Post Type Singular Name"
+msgid "Review"
+msgstr "Kundenmeinung"
+
+#: inc/settings/wp-simple-reviews.php:154
+msgid "Pricerange from"
+msgstr "Preise beginnend ab"
+
+#: inc/settings/wp-simple-reviews.php:162
+msgid "Pricerange to"
+msgstr "Preise bis"
+
+#: inc/settings/wp-simple-reviews.php:202
+msgid "Product Specific: Product Brand"
+msgstr ""
+
+#: inc/settings/wp-simple-reviews.php:194
+msgid "Product Specific: Product Description"
+msgstr ""
+
+#: inc/settings/wp-simple-reviews.php:218
+msgid "Product Specific: Product Item Reviewed"
+msgstr ""
+
+#: inc/settings/wp-simple-reviews.php:186
+msgid "Product Specific: Product Name"
+msgstr ""
+
+#: inc/settings/wp-simple-reviews.php:210
+msgid "Product Specific: Product SKU"
+msgstr ""
+
+#: inc/meta-box/review.php:37 inc/post-type/review.php:72
+msgid "Rating"
+msgstr "Bewertung"
+
+#: inc/post-type/review.php:13 inc/post-type/review.php:34
+msgid "Review"
+msgstr "Kundenmeinung"
+
+#: inc/post-type/review.php:14
+msgid "Review Archives"
+msgstr "Kundenmeinung Archive"
+
+#: inc/post-type/review.php:15
+msgid "Review Attributes"
+msgstr "Kundenmeinung Attribute"
+
+#: inc/shortcode/form.php:183
+msgctxt "Review Form"
+msgid "Company"
+msgstr "Firma"
+
+#: inc/shortcode/form.php:197
+msgctxt "Review Form"
+msgid "eMail*"
+msgstr "E-Mail*"
+
+#: inc/shortcode/form.php:186
+msgctxt "Review Form"
+msgid "First name*"
+msgstr "Vorname*"
+
+#: inc/shortcode/form.php:189
+msgctxt "Review Form"
+msgid "Last name*"
+msgstr "Nachname*"
+
+#: inc/shortcode/form.php:194
+msgctxt "Review Form"
+msgid "Phone"
+msgstr "Telefon"
+
+#: inc/shortcode/form.php:201
+msgctxt "Review Form"
+msgid "Rating Content*"
+msgstr "Bewertung Inhalt"
+
+#: inc/shortcode/form.php:200
+msgctxt "Review Form"
+msgid "Rating Title*"
+msgstr "Titel Ihrer Bewertung"
+
+#: inc/shortcode/form.php:182
+msgctxt "Review Form"
+msgid "Rating*"
+msgstr "Bewertung"
+
+#: inc/shortcode/form.php:206
+#, php-format
+msgctxt "Review Form"
+msgid ""
+"With my rating I accept the <a href=\"%s\" title=\"Data Privacy Policy\" "
+"target=\"_blank\">Data Privacy Policy</a>."
+msgstr ""
+"Mit der Abgabe der Bewertung erkläre ich die <a href=\"%s\" "
+"title=\"Datenschutzerklärung\" target=\"_blank\">Datenschutzerklärung</a> "
+"gelesen und verstanden zu haben."
+
+#: inc/shortcode/rating-box.php:27 inc/shortcode/rating-box.php:29
+msgid "Review Now"
+msgstr "Jetzt bewerten"
+
+#: inc/settings/wp-simple-reviews.php:170
+msgid "Review URL"
+msgstr "Kundenmeinungen URL"
+
+#: inc/shortcode/visual-rating.php:85
+msgid "Review us"
+msgstr "Bewerten Sie uns"
+
+#: inc/post-type/review.php:12
+msgid "Reviews"
+msgstr "Kundenmeinungen"
+
+#: inc/post-type/review.php:29
+msgid "Reviews list"
+msgstr "Liste der Kundenmeinungen"
+
+#: inc/post-type/review.php:30
+msgid "Reviews list navigation"
+msgstr "Liste mit Kundenmeinungen Navigation"
+
+#: inc/post-type/review.php:24
+msgid "Search Review"
+msgstr "Kundenm. suchen"
+
+#. Description of the plugin
+msgid "Simple reviews Google like"
+msgstr "Einfach Kundenmeinungen die Google mag"
+
+#: inc/settings/wp-simple-reviews.php:114
+msgid "State"
+msgstr "Bundesland"
+
+#: inc/settings/wp-simple-reviews.php:90
+msgid "Street"
+msgstr "Strasse"
+
+#: inc/shortcode/form.php:211
+msgid "Submit Rating"
+msgstr "Bewertung absenden"
+
+#: inc/settings/wp-simple-reviews.php:178
+msgid "Thank You Page URL"
+msgstr "Danke-Seite URL"
+
+#. ID
+#: inc/settings/wp-simple-reviews.php:74
+msgid "Type"
+msgstr "Typ"
+
+#: inc/post-type/review.php:21
+msgid "Update Review"
+msgstr "Kundenmeinung aktualisieren"
+
+#: inc/post-type/review.php:28
+msgid "Uploaded to this review"
+msgstr "Zu dieser Kundenmeinung hochladen"
+
+#: inc/shortcode/visual-rating.php:44
+msgid "Very Good"
+msgstr "Sehr gut"
+
+#: inc/post-type/review.php:22
+msgid "View Review"
+msgstr "Zeige Kundenmeinung"
+
+#: inc/post-type/review.php:23
+msgid "View Reviews"
+msgstr "Zeige Kundenmeinungen"
+
+#. Name of the plugin
+#: inc/settings/wp-simple-reviews.php:41
+msgid "WP Simple Reviews"
+msgstr "WP Simple Reviews"
+
+#: inc/meta-box/review.php:43
+msgid "Yes"
+msgstr ""
+
+#: inc/settings/wp-simple-reviews.php:98
+msgid "Zipcode"
+msgstr "PLZ"
