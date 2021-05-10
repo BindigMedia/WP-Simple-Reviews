@@ -3,7 +3,7 @@
  * Plugin Name: WP Simple Reviews
  * Plugin URI: https://www.bindig-media.de
  * Description: Simple reviews Google like
- * Version: 0.3.6
+ * Version: 0.3.7
  * Author: Bindig Media GmbH
  * Author URI: https://www.bindig-media.de
  *
