@@ -1,0 +1,15 @@
+{
+  "name": "bndmedia/wp-simple-reviews",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Paul Treubrodt",
+      "email": "pt@bindig-media.de"
+    }
+  ],
+  "require": {
+    "kernl/kernl-update-checker": "2.*"
+  }
+}
