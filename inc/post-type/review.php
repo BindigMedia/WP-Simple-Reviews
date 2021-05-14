@@ -56,7 +56,7 @@ function wp_simple_reviews_post_type() {
         'has_archive'           => false,
         'exclude_from_search'   => true,
         'publicly_queryable'    => false,
-        'capability_type'       => 'post',
+        'capability_type'       => 'review',
         'capabilities'          => $capabilities,
         'show_in_rest'          => true,
     );

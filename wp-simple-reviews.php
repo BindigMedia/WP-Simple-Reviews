@@ -3,7 +3,7 @@
  * Plugin Name: WP Simple Reviews
  * Plugin URI: https://www.bindig-media.de
  * Description: Simple reviews Google like
- * Version: 0.3.8
+ * Version: 0.3.9
  * Author: Bindig Media GmbH
  * Author URI: https://www.bindig-media.de
  *
@@ -46,7 +46,7 @@ add_action('plugins_loaded', 'wpsr_load_textdomain');
  *
  */
 function my_custom_script_load() {
-    wp_register_style( 'wp-simple-reviews', plugin_dir_url(__FILE__) . 'css/wp-simple-reviews.css', false, '0.3.8', 'all' );
+    wp_register_style( 'wp-simple-reviews', plugin_dir_url(__FILE__) . 'css/wp-simple-reviews.css', false, '0.3.9', 'all' );
     wp_enqueue_style( 'wp-simple-reviews' );
 
     wp_enqueue_script( 'starrr', plugin_dir_url(__FILE__) . 'js/starrr.js', array( 'jquery' ), '0.2.1', true );
