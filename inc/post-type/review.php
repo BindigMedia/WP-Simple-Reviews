@@ -30,6 +30,15 @@ function wp_simple_reviews_post_type() {
         'items_list_navigation' => __( 'Reviews list navigation', 'wp-simple-reviews' ),
         'filter_items_list'     => __( 'Filter Reviews list', 'wp-simple-reviews' ),
     );
+    $capabilities = array(
+        'edit_post' => 'edit_review',
+        'edit_posts' => 'edit_reviews',
+        'edit_others_posts' => 'edit_other_reviews',
+        'publish_posts' => 'publish_reviews',
+        'read_post' => 'read_review',
+        'read_private_posts' => 'read_private_reviews',
+        'delete_posts' => 'delete_reviews'
+    );
     $args = array(
         'label'                 => __( 'Review', 'wp-simple-reviews' ),
         'description'           => __( 'Managing review entries', 'wp-simple-reviews' ),
@@ -48,6 +57,7 @@ function wp_simple_reviews_post_type() {
         'exclude_from_search'   => true,
         'publicly_queryable'    => false,
         'capability_type'       => 'post',
+        'capabilities'          => $capabilities,
         'show_in_rest'          => true,
     );
     register_post_type( 'review', $args );
