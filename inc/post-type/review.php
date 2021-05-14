@@ -118,3 +118,19 @@ function custom_review_column( $column, $post_id ) {
     }
 }
 add_action( 'manage_review_posts_custom_column' , 'custom_review_column', 10, 2 );
+
+
+/**
+ * Add Admin Caps
+ */
+function add_admin_caps() {
+    $role = get_role( 'administrator');
+    $role->add_cap('edit_review');
+    $role->add_cap('edit_reviews');
+    $role->add_cap('edit_other_reviews');
+    $role->add_cap('publish_reviews');
+    $role->add_cap('read_review');
+    $role->add_cap('read_private_reviews');
+    $role->add_cap('delete_reviews');
+}
+add_action('admin_init', 'add_admin_caps');
