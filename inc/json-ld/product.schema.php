@@ -8,6 +8,7 @@ function add_schema_to_head() {
 
     // Get Address
     $wpsr = get_option('wpsr');
+    $has_posts = false;
 
     // Variables
     $amount = 0;
@@ -26,14 +27,16 @@ function add_schema_to_head() {
             $amount++;
             $rating_sum += intval(get_post_meta(get_the_ID(), 'review_rating', true));
         }
+        $has_posts = true;
     }
     wp_reset_postdata();
 
     // Calculation
     $rating_result = $rating_sum / $amount;
 
-    ?>
-    <script type="application/ld+json">
+    if($has_posts === true AND !empty($wpsr['product_name']) AND !empty($wpsr['product_description']) AND !empty($wpsr['product_brand']) AND !empty($wpsr['image']) AND !empty($wpsr['product_sku'])) {
+        ?>
+        <script type="application/ld+json">
             {
                 "@context": "http:\/\/schema.org",
                 "@type": "Product",
@@ -54,11 +57,15 @@ function add_schema_to_head() {
                     "ratingValue": "<?php echo $rating_result; ?>",
                     "itemReviewed": {
                         "@type": "Thing",
+                        <?php if (!empty($wpsr['product_reviewed_item'])) : ?>
                         "name": "<?php echo $wpsr['product_reviewed_item']; ?>"
+                        <?php endif; ?>
                     }
                 }
             }
         </script>
-    <?php
+        <?php
+    }
+
 }
 add_action('wp_head', 'add_schema_to_head', 10);
