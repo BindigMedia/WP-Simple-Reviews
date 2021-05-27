@@ -6,12 +6,12 @@
 function wpsr_get_address($atts, $content = null) {
 
     // Attributes
-    $a = shortcode_atts( array(
+    $a = shortcode_atts(array(
         'schema' => 'false'
-    ), $atts );
+   ), $atts);
 
     // Get Settings Array
-    $wpsr = get_option( 'wpsr' );
+    $wpsr = get_option('wpsr');
 
     // Build Address
     if($a['schema'] == 'true') {

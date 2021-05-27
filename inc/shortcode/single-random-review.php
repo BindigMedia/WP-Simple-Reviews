@@ -6,11 +6,11 @@
 function wpsr_single_random_review($atts, $content = null) {
 
     // Attributes
-    $a = shortcode_atts( array(
+    $a = shortcode_atts(array(
         'max_words' => '',
         'photo' => 'false',
         'simple' => 'false',
-    ), $atts );
+   ), $atts);
 
     // Get Reviews
     $single_random_review_args = array(
@@ -22,15 +22,15 @@ function wpsr_single_random_review($atts, $content = null) {
                 'key'     => 'review_exclude',
                 'value'   => '1',
                 'compare' => '<',
-            )
-        )
-    );
-    $single_random_review = new WP_Query( $single_random_review_args );
+           )
+       )
+   );
+    $single_random_review = new WP_Query($single_random_review_args);
 
     $markup = '';
 
-    if ( $single_random_review->have_posts() ) {
-        while ( $single_random_review->have_posts() ) {
+    if ($single_random_review->have_posts()) {
+        while ($single_random_review->have_posts()) {
             $single_random_review->the_post();
 
             if (!empty($a['max_words'])) {

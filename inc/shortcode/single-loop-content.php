@@ -6,9 +6,9 @@
 function wpsr_get_single_content($atts, $content = null) {
 
     // Attributes
-    $a = shortcode_atts( array(
+    $a = shortcode_atts(array(
         'excerpt' => 'false'
-    ), $atts );
+   ), $atts);
 
     // Get Content
     if($a['excerpt'] == 'true') {

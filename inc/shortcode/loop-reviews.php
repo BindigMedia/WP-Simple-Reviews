@@ -6,16 +6,16 @@
 function wpsr_loop_reviews($atts, $content = null) {
 
     // Attributes
-    $a = shortcode_atts( array(
+    $a = shortcode_atts(array(
         'max_words' => '',
         'items' => -1,
         'photos' => 'false',
         'pagination' => 'false',
-    ), $atts );
+   ), $atts);
 
     // Pagination if is enable
     if ($a['pagination'] == 'true') {
-        $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
     } else {
         $paged = '';
     }
@@ -30,10 +30,10 @@ function wpsr_loop_reviews($atts, $content = null) {
                     'key'     => 'review_exclude',
                     'value'   => '1',
                     'compare' => '!=',
-                )
-            ),
+               )
+           ),
             'paged' => $paged
-        );
+       );
     } else {
         $loop_reviews_args = array(
             'post_type' => 'review',
@@ -43,23 +43,23 @@ function wpsr_loop_reviews($atts, $content = null) {
                     'key'     => 'review_exclude',
                     'value'   => '1',
                     'compare' => '!=',
-                )
-            )
-        );
+               )
+           )
+       );
     }
 
-    $loop_reviews = new WP_Query( $loop_reviews_args );
+    $loop_reviews = new WP_Query($loop_reviews_args);
 
 
     $markup = '';
 
-    if ( $loop_reviews->have_posts() ) {
+    if ($loop_reviews->have_posts()) {
         $markup .= '<div class="wpsr-reviews">';
 
         /**
          * Loopi
          */
-        while ( $loop_reviews->have_posts() ) {
+        while ($loop_reviews->have_posts()) {
             $loop_reviews->the_post();
 
             if (!empty($a['max_words'])) {
@@ -119,7 +119,7 @@ function wpsr_loop_reviews($atts, $content = null) {
             'base' => add_query_arg('paged', '%#%'),
             'total' => $loop_reviews->max_num_pages,
             'current' => $paged
-        );
+       );
         if ($a['pagination'] == 'true') {
             $markup .= paginate_links($args_pagination);
         }

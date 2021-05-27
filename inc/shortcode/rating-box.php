@@ -6,13 +6,13 @@
 function wpsr_rating_box($atts, $content = null) {
 
     // Attributes
-    $a = shortcode_atts( array(
+    $a = shortcode_atts(array(
         'review' => 'false',
         'address' => 'true',
         'review_link' => 'true'
-    ), $atts );
+   ), $atts);
 
-    $wpsr = get_option( 'wpsr' );
+    $wpsr = get_option('wpsr');
 
     $aggregated_reviews = '<div class="wpsr-review-box">';
     $aggregated_reviews .= '<div class="wpsr-label-rating">'. do_shortcode('[wpsr_visual_rating summery="false" review_link="false" review_button="false" label="true" stars="false" short_summery="false"]') .'</div>';

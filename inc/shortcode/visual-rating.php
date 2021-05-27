@@ -6,7 +6,7 @@
 function wpsr_visual_rating($atts, $content = null) {
 
     // Attributes
-    $a = shortcode_atts( array(
+    $a = shortcode_atts(array(
         'stars' => 'true',
         'label' => 'true',
         'rating_description' => 'true',
@@ -15,7 +15,7 @@ function wpsr_visual_rating($atts, $content = null) {
         'schema' => 'false',
         'review_link' => 'false',
         'review_button' => 'false'
-    ), $atts );
+   ), $atts);
 
     // Variables
     $visual_rating = '';
@@ -23,14 +23,14 @@ function wpsr_visual_rating($atts, $content = null) {
     $rating_sum = 0;
 
     // Get Settings
-    $wpsr = get_option( 'wpsr' );
+    $wpsr = get_option('wpsr');
     $review_url = $wpsr['review_url'];
 
     $reviews = get_posts(array(
         'post_type' => 'review',
         'post_status' => 'publish',
         'numberposts' => -1
-    ));
+   ));
     foreach ($reviews as $review) {
         $amount++;
         $rating_sum += floatval(get_post_meta($review->ID, 'review_rating', true));
@@ -81,7 +81,7 @@ function wpsr_visual_rating($atts, $content = null) {
     if ($a['summery'] == 'true' AND $a['review_link'] == 'true' AND !empty($wpsr['review_url'])) {
         $output .= '<div class="bottom">';
         $output .= sprintf(__('<span class="rating">%s</span> out of <span class="best">5</span> in <span class="votes">%s</span> <a href="%s" title="Show Reviews">reviews</a>', 'wp-simple-reviews'), number_format($rating_result, 1), $amount, $review_url);
-        if ( $a['review_button'] == 'true' AND !empty($wpsr['review_url']) ) {
+        if ($a['review_button'] == 'true' AND !empty($wpsr['review_url'])) {
             $output .= '<div class="wpsr-review-us"><a href="'. $wpsr['review_url'] .'">'. __('Review us', 'wp-simple-reviews') .'</a></div>';
         }
         $output .= '</div>';
