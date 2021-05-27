@@ -34,26 +34,40 @@ function add_schema_to_head() {
     // Calculation
     $rating_result = $rating_sum / $amount;
 
-    if($has_posts === true AND !empty($wpsr['product_name']) AND !empty($wpsr['product_description']) AND !empty($wpsr['product_brand']) AND !empty($wpsr['image']) AND !empty($wpsr['product_sku'])) {
+    if($has_posts === true) {
         ?>
         <script type="application/ld+json">
             {
                 "@context": "http:\/\/schema.org",
                 "@type": "Product",
-                "name": "<?php echo $wpsr['product_name']; ?>",
-                "description": "<?php echo $wpsr['product_description']; ?>",
+                <?php if (!empty($wpsr['product_reviewed_item'])) : ?>
+                    "name": "<?php echo $wpsr['product_name']; ?>",
+                <?php endif; ?>
+                <?php if (!empty($wpsr['product_reviewed_item'])) : ?>
+                    "description": "<?php echo $wpsr['product_description']; ?>",
+                <?php endif; ?>
                 "brand" : {
                     "@type": "Organization",
+                <?php if (!empty($wpsr['product_reviewed_item'])) : ?>
                     "name": "<?php echo $wpsr['product_brand']; ?>",
+                <?php endif; ?>
                     "url": "<?php echo get_home_url(); ?>"
                 },
-                "image": "<?php echo $wpsr['image']; ?>",
-                "sku": "<?php echo $wpsr['product_sku']; ?>",
+                <?php if (!empty($wpsr['product_reviewed_item'])) : ?>
+                    "image": "<?php echo $wpsr['image']; ?>",
+                <?php endif; ?>
+
+                <?php if (!empty($wpsr['product_reviewed_item'])) : ?>
+                    "sku": "<?php echo $wpsr['product_sku']; ?>",
+                <?php endif; ?>
                 "aggregateRating": {
                     "@type": "aggregateRating",
                     "worstRating": 1,
                     "bestRating": 5,
+
+                <?php if (!empty($wpsr['product_reviewed_item'])) : ?>
                     "reviewCount": "<?php echo $amount; ?>",
+                <?php endif; ?>
                     "ratingValue": "<?php echo $rating_result; ?>",
                     "itemReviewed": {
                         "@type": "Thing",
