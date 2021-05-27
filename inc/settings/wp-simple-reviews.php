@@ -70,14 +70,6 @@ class WPSimpleReviewsSettings {
        );
 
         add_settings_field(
-            'type', // ID
-            __('Type', 'wp-simple-reviews'), // Title
-            array($this, 'type_callback'), // Callback
-            'wp-simple-reviews', // Page
-            'setting_section_id' // Section
-       );
-
-        add_settings_field(
             'company', // ID
             __('Company', 'wp-simple-reviews'), // Title
             array($this, 'company_callback'), // Callback
@@ -231,9 +223,6 @@ class WPSimpleReviewsSettings {
     public function sanitize($input)
     {
         $new_input = array();
-        if(isset($input['type']))
-            $new_input['type'] = sanitize_text_field($input['type']);
-
         if(isset($input['company']))
             $new_input['company'] = sanitize_text_field($input['company']);
 
@@ -304,16 +293,6 @@ class WPSimpleReviewsSettings {
      * Get the settings option array and print one of its values
      */
 
-    /**
-     * Type
-     */
-    public function type_callback()
-    {
-        printf(
-            '<input type="text" id="type" name="wpsr[type]" value="%s" placeholder="'. __('1=Org, 2=Product', 'wp-simple-reviews') .'" />',
-            isset($this->options['type']) ? esc_attr($this->options['type']) : ''
-       );
-    }
 
     /**
      * Company

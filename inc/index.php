@@ -18,7 +18,7 @@ require_once('shortcode/loop-reviews.php');
 
 // JSON-LD
 require_once('json-ld/product.schema.php');
-require_once('json-ld/localbusiness.schema.php');
+// require_once('json-ld/localbusiness.schema.php');
 
 // Meta Box
 require_once('meta-box/review.php');
