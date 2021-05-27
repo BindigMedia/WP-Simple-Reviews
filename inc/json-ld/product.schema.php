@@ -9,7 +9,7 @@ function add_schema_to_head() {
     // Get Address
     $wpsr = get_option('wpsr');
 
-    if(int($wpsr['type']) == 1) {
+    if(intval($wpsr['type']) == 1) {
         // Variables
         $amount = 0;
         $rating_sum = 0;

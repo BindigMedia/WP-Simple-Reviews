@@ -9,7 +9,7 @@ function add_localbusiness_schema_to_head() {
     // Get Address
     $wpsr = get_option('wpsr');
 
-    if(int($wpsr['type']) == 2) {
+    if(intval($wpsr['type']) == 2) {
         // Variables
         $amount = 0;
         $rating_sum = 0;
