@@ -192,7 +192,7 @@ class WPSimpleReviewsSettings {
         add_settings_field(
             'product_brand',
             __('Product Specific: Product Brand', 'wp-simple-reviews'), // Title
-            array($this, 'product_name_callback'),
+            array($this, 'product_brand_callback'),
             'wp-simple-reviews',
             'setting_section_id'
        );
