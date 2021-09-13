@@ -131,6 +131,6 @@ function add_admin_caps() {
     $role->add_cap('publish_reviews');
     $role->add_cap('read_review');
     $role->add_cap('read_private_reviews');
-    $role->add_cap('delete_reviews');
+    $role->add_cap('delete_review');
 }
 add_action('admin_init', 'add_admin_caps');
