@@ -58,7 +58,7 @@ function wp_simple_reviews_post_type() {
         'publicly_queryable'    => false,
         'capability_type'       => 'review',
         'capabilities'          => $capabilities,
-        'show_in_rest'          => true,
+        'show_in_rest'          => false,
    );
     register_post_type('review', $args);
 

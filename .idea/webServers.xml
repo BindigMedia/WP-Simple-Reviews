@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fe5520ac-4f99-4c5f-9785-cae20f2f34df" name="WP Simple Reviews" url="https://www.recoverylab-datenrettung.de">
+        <fileTransfer rootFolder="/public_html/wp-content/plugins/wp-simple-reviews" accessType="SFTP" host="recoverylab-datenrettung.de" port="22" sshConfigId="f870d8bb-96c0-4682-a1d7-14301358b1f0" sshConfig="recovf@recoverylab-datenrettung.de:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

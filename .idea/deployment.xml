@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="WP Simple Reviews">
+  <component name="PublishConfigData" autoUpload="Always" serverName="WP Simple Reviews" autoUploadExternalChanges="true">
     <serverData>
-      <paths name=" dev.2bmedia.de">
+      <paths name="WP DATA REVERSE Leads">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="WP Google Reviews">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
@@ -16,35 +23,28 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="WP UTM Tracking">
+      <paths name="app.datareverse.de">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="also.mustershop-premium-partner.abh24.dev">
+      <paths name="bmoffice24.de Leads">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="also.mustershop-premium.abh24.dev">
+      <paths name="datareverse-datenrettung.de">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="bindig-media.de SSH">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="datarecovery-datenrettung.de">
+      <paths name="datenrettungsspezialist.de">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
@@ -65,6 +65,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="it-security-mindset.de">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="kiwiko-eg.com">
         <serverdata>
           <mappings>
@@ -72,7 +79,35 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="recoverylab.de">
+      <paths name="ohrmax-hoergeraete.de">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="ohrmax-hoergeraete.de Excel Sort">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="ohrvital-hoergeraete.de">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="oiram.treubrodt.de">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="recoverylab-datenrettung.de">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
@@ -80,20 +115,6 @@
         </serverdata>
       </paths>
       <paths name="smile-repair.de">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="smilerepair.de">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="termin.voipspezialist.de">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
