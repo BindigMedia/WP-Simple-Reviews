@@ -47,27 +47,47 @@ function add_schema_to_head() {
             {
                 "@context": "http:\/\/schema.org",
                 "@type": "Product",
-                    "name": "<?php echo $wpsr['product_name']; ?>",
-                    "description": "<?php echo $wpsr['product_description']; ?>",
+                "name": "<?php echo $wpsr['product_name']; ?>",
+                "description": "<?php echo $wpsr['product_description']; ?>",
                 "brand" : {
                     "@type": "Organization",
                     "name": "<?php echo $wpsr['product_brand']; ?>",
                     "url": "<?php echo get_home_url(); ?>"
                 },
-                    "image": "<?php echo $wpsr['image']; ?>",
-
-                    "sku": "<?php echo $wpsr['product_sku']; ?>",
+                "image": "<?php echo $wpsr['image']; ?>",
+                "sku": "<?php echo $wpsr['product_sku']; ?>",
+                "gtin": "<?php echo $wpsr['product_sku']; ?>",
+                "review": {
+                    "@type": "Review",
+                    "reviewRating": {
+                      "@type": "Rating",
+                      "ratingValue": "<?php echo $rating_result; ?>",
+                      "bestRating": "5"
+                    },
+                    "author": {
+                      "@type": "Person",
+                      "name": "Paul C."
+                    }
+                },
                 "aggregateRating": {
                     "@type": "aggregateRating",
                     "worstRating": 1,
                     "bestRating": 5,
-
                     "reviewCount": "<?php echo $amount; ?>",
                     "ratingValue": "<?php echo $rating_result; ?>",
                     "itemReviewed": {
                         "@type": "Thing",
                         "name": "<?php echo $wpsr['product_item_reviewed']; ?>"
                     }
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "url": "<?php echo get_home_url(); ?>",
+                    "priceCurrency": "EUR",
+                    "price": "79.99",
+                    "priceValidUntil": "<?php echo date('Y-m-d', strtotime('Dec 31')); ?>",
+                    "itemCondition": "https://schema.org/UsedCondition",
+                    "availability": "https://schema.org/InStock"
                 }
             }
         </script>
