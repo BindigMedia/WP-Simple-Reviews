@@ -80,6 +80,32 @@
     line-height: 1.4;
 }
 
+.reviews-legal-trigger {
+    cursor: pointer
+}
+
+.reviews-legal {
+    position: relative;
+    display: none;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+}
+
+.reviews-legal.show {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    max-width: 200px;
+}
+
+
 .wpsr-review-box {
     color: #000;
     padding: 20px;

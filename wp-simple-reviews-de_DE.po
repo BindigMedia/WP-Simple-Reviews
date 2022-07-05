@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WP Simple Reviews\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-30 14:55+0000\n"
-"PO-Revision-Date: 2020-11-30 13:17+0000\n"
+"PO-Revision-Date: 2022-07-05 06:33+0000\n"
 "Last-Translator: emailchef\n"
 "Language-Team: Deutsch\n"
 "Language: de_DE\n"
@@ -14,11 +14,7 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.4.3; wp-5.5.1"
 
-#: inc/settings/wp-simple-reviews.php:313
-msgid "1=Org, 2=Product"
-msgstr "1=Org., 2=Produkt"
-
-#: inc/shortcode/visual-rating.php:93
+#: inc/shortcode/visual-rating.php:97
 #, php-format
 msgid ""
 "<span class=\"rating\">%s</span> <span class=\"votes\">(%s reviews)</span>"
@@ -37,7 +33,7 @@ msgstr ""
 "class=\"votes\">%s</span> <a href=\"%s\" title=\"Kundenmeinungen anzeigen\">"
 "Kundenmeinungen</a>"
 
-#: inc/shortcode/visual-rating.php:90
+#: inc/shortcode/visual-rating.php:94
 #, php-format
 msgid ""
 "<span class=\"rating\">%s</span> out of <span class=\"best\">5</span> in "
@@ -62,17 +58,17 @@ msgstr "Schlecht"
 msgid "Bindig Media GmbH"
 msgstr "Bindig Media GmbH"
 
-#: inc/settings/wp-simple-reviews.php:106
+#: inc/settings/wp-simple-reviews.php:98
 msgid "City"
 msgstr "Ort"
 
 #. ID
-#: inc/settings/wp-simple-reviews.php:82 inc/meta-box/review.php:46
-#: inc/post-type/review.php:70
+#: inc/post-type/review.php:80 inc/meta-box/review.php:46
+#: inc/settings/wp-simple-reviews.php:74
 msgid "Company"
 msgstr "Firma"
 
-#: inc/settings/wp-simple-reviews.php:122
+#: inc/settings/wp-simple-reviews.php:114
 msgid "Country e.g. DE"
 msgstr "Land z.B. DE"
 
@@ -84,7 +80,7 @@ msgstr "Details"
 msgid "Edit Review"
 msgstr "Kundenm. bearbeiten"
 
-#: inc/settings/wp-simple-reviews.php:146 inc/meta-box/review.php:52
+#: inc/meta-box/review.php:52 inc/settings/wp-simple-reviews.php:138
 msgid "eMail"
 msgstr "E-Mail Adresse"
 
@@ -100,6 +96,14 @@ msgstr "Liste mit Kundenmeinungen filtern"
 msgid "First name"
 msgstr "Vorname"
 
+#: inc/shortcode/visual-rating.php:86
+msgid ""
+"For data protection legal reasons, we can not guarantee the authenticity of "
+"the data (information obligation for ratings)."
+msgstr ""
+"Aus Datenschutz rechtlichen Gründen, können wir die Echtheit der Daten nicht "
+"garantieren (Informationspflicht bei Bewertungen)."
+
 #: inc/shortcode/visual-rating.php:47
 msgid "Good"
 msgstr "Gut"
@@ -109,7 +113,7 @@ msgstr "Gut"
 msgid "https://www.bindig-media.de"
 msgstr "https://www.bindig-media.de"
 
-#: inc/settings/wp-simple-reviews.php:130
+#: inc/settings/wp-simple-reviews.php:122
 msgid "Image URL"
 msgstr "Logo URL"
 
@@ -121,11 +125,11 @@ msgstr "Zur Kundenmeinung hinzufügen"
 msgid "Last name"
 msgstr "Nachname"
 
-#: inc/post-type/review.php:35
+#: inc/post-type/review.php:44
 msgid "Managing review entries"
 msgstr "Verwaltung von Kundenmeinungen"
 
-#: inc/post-type/review.php:71
+#: inc/post-type/review.php:81
 msgid "Name"
 msgstr "Name"
 
@@ -157,7 +161,7 @@ msgstr "Nicht so gut"
 msgid "Okay"
 msgstr "Okay"
 
-#: inc/settings/wp-simple-reviews.php:138 inc/meta-box/review.php:54
+#: inc/meta-box/review.php:54 inc/settings/wp-simple-reviews.php:130
 msgid "Phone"
 msgstr "Telefon"
 
@@ -195,39 +199,39 @@ msgctxt "Post Type Singular Name"
 msgid "Review"
 msgstr "Kundenmeinung"
 
-#: inc/settings/wp-simple-reviews.php:154
+#: inc/settings/wp-simple-reviews.php:146
 msgid "Pricerange from"
 msgstr "Preise beginnend ab"
 
-#: inc/settings/wp-simple-reviews.php:162
+#: inc/settings/wp-simple-reviews.php:154
 msgid "Pricerange to"
 msgstr "Preise bis"
 
-#: inc/settings/wp-simple-reviews.php:202
+#: inc/settings/wp-simple-reviews.php:194
 msgid "Product Specific: Product Brand"
 msgstr ""
 
-#: inc/settings/wp-simple-reviews.php:194
+#: inc/settings/wp-simple-reviews.php:186
 msgid "Product Specific: Product Description"
 msgstr ""
 
-#: inc/settings/wp-simple-reviews.php:218
+#: inc/settings/wp-simple-reviews.php:210
 msgid "Product Specific: Product Item Reviewed"
 msgstr ""
 
-#: inc/settings/wp-simple-reviews.php:186
+#: inc/settings/wp-simple-reviews.php:178
 msgid "Product Specific: Product Name"
 msgstr ""
 
-#: inc/settings/wp-simple-reviews.php:210
+#: inc/settings/wp-simple-reviews.php:202
 msgid "Product Specific: Product SKU"
 msgstr ""
 
-#: inc/meta-box/review.php:37 inc/post-type/review.php:72
+#: inc/post-type/review.php:82 inc/meta-box/review.php:37
 msgid "Rating"
 msgstr "Bewertung"
 
-#: inc/post-type/review.php:13 inc/post-type/review.php:34
+#: inc/post-type/review.php:13 inc/post-type/review.php:43
 msgid "Review"
 msgstr "Kundenmeinung"
 
@@ -294,11 +298,11 @@ msgstr ""
 msgid "Review Now"
 msgstr "Jetzt bewerten"
 
-#: inc/settings/wp-simple-reviews.php:170
+#: inc/settings/wp-simple-reviews.php:162
 msgid "Review URL"
 msgstr "Kundenmeinungen URL"
 
-#: inc/shortcode/visual-rating.php:85
+#: inc/shortcode/visual-rating.php:89
 msgid "Review us"
 msgstr "Bewerten Sie uns"
 
@@ -322,11 +326,11 @@ msgstr "Kundenm. suchen"
 msgid "Simple reviews Google like"
 msgstr "Einfach Kundenmeinungen die Google mag"
 
-#: inc/settings/wp-simple-reviews.php:114
+#: inc/settings/wp-simple-reviews.php:106
 msgid "State"
 msgstr "Bundesland"
 
-#: inc/settings/wp-simple-reviews.php:90
+#: inc/settings/wp-simple-reviews.php:82
 msgid "Street"
 msgstr "Strasse"
 
@@ -334,14 +338,9 @@ msgstr "Strasse"
 msgid "Submit Rating"
 msgstr "Bewertung absenden"
 
-#: inc/settings/wp-simple-reviews.php:178
+#: inc/settings/wp-simple-reviews.php:170
 msgid "Thank You Page URL"
 msgstr "Danke-Seite URL"
-
-#. ID
-#: inc/settings/wp-simple-reviews.php:74
-msgid "Type"
-msgstr "Typ"
 
 #: inc/post-type/review.php:21
 msgid "Update Review"
@@ -372,6 +371,6 @@ msgstr "WP Simple Reviews"
 msgid "Yes"
 msgstr "Ja"
 
-#: inc/settings/wp-simple-reviews.php:98
+#: inc/settings/wp-simple-reviews.php:90
 msgid "Zipcode"
 msgstr "PLZ"

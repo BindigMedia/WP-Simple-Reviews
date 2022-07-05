@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP Simple Reviews\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-30 13:17+0000\n"
+"POT-Creation-Date: 2022-07-05 06:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -15,11 +15,7 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.4.0; wp-5.4.2"
 
-#: inc/settings/wp-simple-reviews.php:313
-msgid "1=Org, 2=Product"
-msgstr ""
-
-#: inc/shortcode/visual-rating.php:93
+#: inc/shortcode/visual-rating.php:97
 #, php-format
 msgid ""
 "<span class=\"rating\">%s</span> <span class=\"votes\">(%s reviews)</span>"
@@ -33,7 +29,7 @@ msgid ""
 "reviews</a>"
 msgstr ""
 
-#: inc/shortcode/visual-rating.php:90
+#: inc/shortcode/visual-rating.php:94
 #, php-format
 msgid ""
 "<span class=\"rating\">%s</span> out of <span class=\"best\">5</span> in "
@@ -56,17 +52,17 @@ msgstr ""
 msgid "Bindig Media GmbH"
 msgstr ""
 
-#: inc/settings/wp-simple-reviews.php:106
+#: inc/settings/wp-simple-reviews.php:98
 msgid "City"
 msgstr ""
 
 #. ID
-#: inc/settings/wp-simple-reviews.php:82 inc/meta-box/review.php:46
-#: inc/post-type/review.php:70
+#: inc/post-type/review.php:80 inc/meta-box/review.php:46
+#: inc/settings/wp-simple-reviews.php:74
 msgid "Company"
 msgstr ""
 
-#: inc/settings/wp-simple-reviews.php:122
+#: inc/settings/wp-simple-reviews.php:114
 msgid "Country e.g. DE"
 msgstr ""
 
@@ -78,7 +74,7 @@ msgstr ""
 msgid "Edit Review"
 msgstr ""
 
-#: inc/settings/wp-simple-reviews.php:146 inc/meta-box/review.php:52
+#: inc/meta-box/review.php:52 inc/settings/wp-simple-reviews.php:138
 msgid "eMail"
 msgstr ""
 
@@ -94,6 +90,12 @@ msgstr ""
 msgid "First name"
 msgstr ""
 
+#: inc/shortcode/visual-rating.php:86
+msgid ""
+"For data protection legal reasons, we can not guarantee the authenticity of "
+"the data (information obligation for ratings)."
+msgstr ""
+
 #: inc/shortcode/visual-rating.php:47
 msgid "Good"
 msgstr ""
@@ -103,7 +105,7 @@ msgstr ""
 msgid "https://www.bindig-media.de"
 msgstr ""
 
-#: inc/settings/wp-simple-reviews.php:130
+#: inc/settings/wp-simple-reviews.php:122
 msgid "Image URL"
 msgstr ""
 
@@ -115,11 +117,11 @@ msgstr ""
 msgid "Last name"
 msgstr ""
 
-#: inc/post-type/review.php:35
+#: inc/post-type/review.php:44
 msgid "Managing review entries"
 msgstr ""
 
-#: inc/post-type/review.php:71
+#: inc/post-type/review.php:81
 msgid "Name"
 msgstr ""
 
@@ -151,7 +153,7 @@ msgstr ""
 msgid "Okay"
 msgstr ""
 
-#: inc/settings/wp-simple-reviews.php:138 inc/meta-box/review.php:54
+#: inc/meta-box/review.php:54 inc/settings/wp-simple-reviews.php:130
 msgid "Phone"
 msgstr ""
 
@@ -189,39 +191,39 @@ msgctxt "Post Type Singular Name"
 msgid "Review"
 msgstr ""
 
-#: inc/settings/wp-simple-reviews.php:154
+#: inc/settings/wp-simple-reviews.php:146
 msgid "Pricerange from"
 msgstr ""
 
-#: inc/settings/wp-simple-reviews.php:162
+#: inc/settings/wp-simple-reviews.php:154
 msgid "Pricerange to"
 msgstr ""
 
-#: inc/settings/wp-simple-reviews.php:202
+#: inc/settings/wp-simple-reviews.php:194
 msgid "Product Specific: Product Brand"
 msgstr ""
 
-#: inc/settings/wp-simple-reviews.php:194
+#: inc/settings/wp-simple-reviews.php:186
 msgid "Product Specific: Product Description"
 msgstr ""
 
-#: inc/settings/wp-simple-reviews.php:218
+#: inc/settings/wp-simple-reviews.php:210
 msgid "Product Specific: Product Item Reviewed"
 msgstr ""
 
-#: inc/settings/wp-simple-reviews.php:186
+#: inc/settings/wp-simple-reviews.php:178
 msgid "Product Specific: Product Name"
 msgstr ""
 
-#: inc/settings/wp-simple-reviews.php:210
+#: inc/settings/wp-simple-reviews.php:202
 msgid "Product Specific: Product SKU"
 msgstr ""
 
-#: inc/meta-box/review.php:37 inc/post-type/review.php:72
+#: inc/post-type/review.php:82 inc/meta-box/review.php:37
 msgid "Rating"
 msgstr ""
 
-#: inc/post-type/review.php:13 inc/post-type/review.php:34
+#: inc/post-type/review.php:13 inc/post-type/review.php:43
 msgid "Review"
 msgstr ""
 
@@ -285,11 +287,11 @@ msgstr ""
 msgid "Review Now"
 msgstr ""
 
-#: inc/settings/wp-simple-reviews.php:170
+#: inc/settings/wp-simple-reviews.php:162
 msgid "Review URL"
 msgstr ""
 
-#: inc/shortcode/visual-rating.php:85
+#: inc/shortcode/visual-rating.php:89
 msgid "Review us"
 msgstr ""
 
@@ -313,11 +315,11 @@ msgstr ""
 msgid "Simple reviews Google like"
 msgstr ""
 
-#: inc/settings/wp-simple-reviews.php:114
+#: inc/settings/wp-simple-reviews.php:106
 msgid "State"
 msgstr ""
 
-#: inc/settings/wp-simple-reviews.php:90
+#: inc/settings/wp-simple-reviews.php:82
 msgid "Street"
 msgstr ""
 
@@ -325,13 +327,8 @@ msgstr ""
 msgid "Submit Rating"
 msgstr ""
 
-#: inc/settings/wp-simple-reviews.php:178
+#: inc/settings/wp-simple-reviews.php:170
 msgid "Thank You Page URL"
-msgstr ""
-
-#. ID
-#: inc/settings/wp-simple-reviews.php:74
-msgid "Type"
 msgstr ""
 
 #: inc/post-type/review.php:21
@@ -363,6 +360,6 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
-#: inc/settings/wp-simple-reviews.php:98
+#: inc/settings/wp-simple-reviews.php:90
 msgid "Zipcode"
 msgstr ""
