@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '8d154016beb734952daabe0edb06b8a487302954',
+        'reference' => 'f82fc941938bc05d63b0f9d1f7c7ced109e5e428',
         'name' => 'bndmedia/wp-simple-reviews',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '8d154016beb734952daabe0edb06b8a487302954',
+            'reference' => 'f82fc941938bc05d63b0f9d1f7c7ced109e5e428',
             'dev_requirement' => false,
         ),
         'kernl/kernl-update-checker' => array(
