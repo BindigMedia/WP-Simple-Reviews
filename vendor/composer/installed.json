@@ -2,24 +2,24 @@
     "packages": [
         {
             "name": "kernl/kernl-update-checker",
-            "version": "2.4.0",
-            "version_normalized": "2.4.0.0",
+            "version": "3.1.0",
+            "version_normalized": "3.1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vital101/plugin-update-checker.git",
-                "reference": "84e4ec84f351bd766ae72cc1d9b27cf109382e95"
+                "reference": "f7c8130a24f833b9045351c46a73b7fe90f9f2ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vital101/plugin-update-checker/zipball/84e4ec84f351bd766ae72cc1d9b27cf109382e95",
-                "reference": "84e4ec84f351bd766ae72cc1d9b27cf109382e95",
+                "url": "https://api.github.com/repos/vital101/plugin-update-checker/zipball/f7c8130a24f833b9045351c46a73b7fe90f9f2ff",
+                "reference": "f7c8130a24f833b9045351c46a73b7fe90f9f2ff",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "php": ">=5.2.0"
             },
-            "time": "2021-03-11T12:05:27+00:00",
+            "time": "2022-03-04T14:47:16+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -48,7 +48,7 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/vital101/plugin-update-checker/tree/2.4.0"
+                "source": "https://github.com/vital101/plugin-update-checker/tree/3.1.0"
             },
             "install-path": "../kernl/kernl-update-checker"
         }

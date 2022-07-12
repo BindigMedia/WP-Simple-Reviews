@@ -1,8 +1,8 @@
 <?php
 
-if ( !class_exists('Puc_v4p10_Autoloader', false) ):
+if ( !class_exists('Kernl_v4p10_Autoloader', false) ):
 
-	class Puc_v4p10_Autoloader {
+	class Kernl_v4p10_Autoloader {
 		private $prefix = '';
 		private $rootDir = '';
 		private $libraryDir = '';
@@ -23,7 +23,7 @@ if ( !class_exists('Puc_v4p10_Autoloader', false) ):
 			$this->staticMap = array(
 				'PucReadmeParser' => 'vendor/PucReadmeParser.php',
 				'Parsedown' => 'vendor/Parsedown.php',
-				'Puc_v4_Factory' => 'Puc/v4/Factory.php',
+				'Puc_v4_FactoryKernl' => 'Puc/v4/Factory.php',
 			);
 
 			spl_autoload_register(array($this, 'autoload'));
@@ -51,6 +51,30 @@ if ( !class_exists('Puc_v4p10_Autoloader', false) ):
 				$path = substr($className, strlen($this->prefix));
 				$path = str_replace('_', '/', $path);
 				$path = $this->rootDir . $path . '.php';
+
+				if (file_exists($path)) {
+					/** @noinspection PhpIncludeInspection */
+					include $path;
+				}
+			}
+
+			if (strpos($className, 'Kernl') === 0) {
+				$path = substr($className, strlen('Kernl'));
+				$path = str_replace('_', '/', $path);
+				$path = $this->rootDir . $path . '.php';
+				$path = str_replace('v4p10//v4p10', 'v4p10', $path);
+
+				if (file_exists($path)) {
+					/** @noinspection PhpIncludeInspection */
+					include $path;
+				}
+			}
+
+			if (strpos($className, 'Puc') === 0) {
+				$path = substr($className, strlen('Puc'));
+				$path = str_replace('_', '/', $path);
+				$path = $this->rootDir . $path . '.php';
+				$path = str_replace('v4p10//v4p10', 'v4p10', $path);
 
 				if (file_exists($path)) {
 					/** @noinspection PhpIncludeInspection */
